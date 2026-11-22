@@ -121,8 +121,12 @@ Invitation links expire after 7 days.
 
 The main project directories are organized as follows:
 
+## Project Structure
+
+The main project directories are organized as follows:
+
+```text
 url-shortner/
-│
 ├── app/
 │   ├── Http/
 │   │   ├── Controllers/
@@ -138,27 +142,20 @@ url-shortner/
 │   │   ├── Middleware/
 │   │   │   └── RoleMiddleware.php
 │   │   └── Requests/
-│   │
 │   ├── Models/
 │   │   ├── Company.php
 │   │   ├── Invitation.php
 │   │   ├── Url.php
 │   │   ├── UrlClick.php
 │   │   └── User.php
-│   │
 │   └── Providers/
-│
 ├── bootstrap/
-│
 ├── config/
-│
 ├── database/
 │   ├── factories/
 │   ├── migrations/
 │   └── seeders/
-│
 ├── public/
-│
 ├── resources/
 │   ├── css/
 │   ├── js/
@@ -170,21 +167,19 @@ url-shortner/
 │       ├── layouts/
 │       ├── super-admin/
 │       └── team/
-│
 ├── routes/
 │   ├── auth.php
 │   ├── console.php
 │   └── web.php
-│
 ├── tests/
 │   ├── Feature/
 │   └── Unit/
-│
 ├── .env.example
 ├── artisan
 ├── composer.json
 ├── package.json
 └── README.md
+```
 
 ## AI Tools Used
 
